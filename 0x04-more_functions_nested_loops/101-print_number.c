@@ -4,6 +4,7 @@
 /**
  * print_number - print an integer
  * @n: the integer to prints
+ * Return: nothing
  */
 
 void print_number(int n)
