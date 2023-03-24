@@ -1,9 +1,9 @@
 #include"main.h"
 
 /**
- *positive_or_negative: llllllll
- *@i: blblbl
- *Return: oooooo
+ * positive_or_negative - llllllll
+ * @i: blblbl
+ * Return: oooooo
  */
 
 void positive_or_negative(int i)
