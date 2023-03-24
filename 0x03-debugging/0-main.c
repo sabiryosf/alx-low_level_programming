@@ -2,11 +2,11 @@
 
 /**
  * main - blblblbl
- * @i: xxx
  * Return: 0
  */
 
 int main(void)
+
 {
 	int i;
 
