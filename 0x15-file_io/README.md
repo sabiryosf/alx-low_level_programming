@@ -47,7 +47,9 @@ The prototypes of all your functions and the prototype of the function _putchar 
 Don’t forget to push your header file
 All your header files should be include guarded
 Tip: always prefer using symbolic constants (POSIX) vs numbers when it makes sense. For instance read(STDIN_FILENO, ... vs read(0, ...
-Tasks
+
+/******* Tasks ******/
+
 0. Tread lightly, she is near
 1. Under the snow
 2. Speak gently, she can hear
