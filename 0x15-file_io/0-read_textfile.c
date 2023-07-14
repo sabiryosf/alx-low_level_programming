@@ -11,12 +11,12 @@ ssize_t read_textfile(const char *filename, size_t letters)
 {
 	int fd;
 	char *buf;
-	ssize_t bytes_read, bytes_zritten;
+	ssize_t bytes_read, bytes_written;
 
 	if (filename == NULL)
 		return (0);
 
-	fd = open(filename, 0_DONLY);
+	fd = open(filename, O_RDONLY);
 	if (fd == -1)
 		return (0);
 
@@ -44,4 +44,4 @@ ssize_t read_textfile(const char *filename, size_t letters)
 		return (0);
 
 	return (bytes_written);
-}	
+}
