@@ -4,7 +4,7 @@
 /**
  * read_textfile - read a text file and print it to STDOUT
  * @filename: the name of the file to rtead
- * @letters: the number of letters to read and print 
+ * @letters: the number of letters to read and print
  * Return: the actual number of letters read and printed, or 0failure.
  */
 ssize_t read_textfile(const char *filename, size_t letters)
